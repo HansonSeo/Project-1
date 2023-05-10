@@ -18,6 +18,7 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Bye, world!")
             Text("Bye, world!")
+            Text("Bye, world!")
             Slider(value: $gauge)
             Toggle(isOn: $isBye) {
                 Text("Bye, world!")
