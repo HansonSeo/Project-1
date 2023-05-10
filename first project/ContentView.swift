@@ -22,6 +22,8 @@ struct ContentView: View {
             Slider(value: $gauge)
             Toggle(isOn: $isBye) {
                 Text("Bye, world!")
+                Text("Get The Fuck Out")
+                    .font(.subheadline)
             }
         }
         .padding()
